@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color:hsl(0, 0%, 95%) ;
+}
+
+.main-card{
+  width: 50%;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.Card{
+  width: 33.33%;
+  max-width: 350px;
+  height: 450px;
+  padding: 30px;
+}
+
+.Card h1{
+  font-family: 'Big Shoulders Display', cursive;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: hsl(0, 0%, 95%);
+}
+
+.Card p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 60px;
+}
+
+.btn1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 400;
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Arial;
+    color: hsl(31, 77%, 52%);
+    font-size: 20px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    border: solid hsl(0, 0%, 95%) 2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    background: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    text-decoration: none;
+  }
+.btn2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 400;
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Arial;
+    color: hsl(184, 100%, 22%);
+    font-size: 20px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    border: solid hsl(0, 0%, 95%) 2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn2:hover {
+    background: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    text-decoration: none;
+  }
+.btn3 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 400;
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Arial;
+    color: hsl(179, 100%, 13%);
+    font-size: 20px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    border: solid hsl(0, 0%, 95%) 2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn3:hover {
+    background: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 1240px) {
+
+    body{
+      background-color: hotpink;
+      width: 100%;
+      height: auto;
+    }
+    .main-card{
+      border-radius: 20px;
+      overflow: hidden;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+      margin: 40px auto;
+
+
+    }
+    .Card{
+      width: 100%;
+    }
+    
+  }
